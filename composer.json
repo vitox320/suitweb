@@ -1,0 +1,18 @@
+{
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "name": "vitox/suitup_web",
+    "authors": [
+        {
+            "name": "João Victor",
+            "email": "vitox320@gmail.com"
+        }
+    ],
+    "require": {
+        "php-activerecord/php-activerecord": "^1.2",
+      "ext-mbstring": "*"
+    }
+}

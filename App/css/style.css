@@ -1,0 +1,57 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: #FFF;
+}
+
+
+/* Components */
+.btn-primary {
+    background-color: #1A1A1A;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #666666;
+}
+
+#nav-retornar {
+    color: #1A1A1A;
+}
+
+
+/* Jumbotron */
+.jumbotron {
+    background-color: #F3F3F3;
+}
+
+
+/* Carousel Product*/
+#carouselProductImage {
+    width: 286px;
+    flex: 0;
+}
+
+
+/* Footer */
+footer {
+    background-color: #1A1A1A;
+    color: #FFF;
+}
+
+
+/* CSS for 576px width */
+@media only screen and (min-width: 576px) {
+    .navbar .container {
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 100%;
+    }
+}
+
+
+/* CSS for 992px width */
+@media only screen and (min-width: 992px) {
+    #navbarSupportedContent {
+        flex-grow: 0;
+    }
+}
